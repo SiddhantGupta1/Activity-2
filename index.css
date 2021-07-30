@@ -1,17 +1,15 @@
 *{
     margin: 0;
 }
-h1{
-    margin-bottom: 15px;
-}
-ul{
+h1, ul{
     margin-bottom: 15px;
 }
 body{
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    padding: 0 50px;
+    box-sizing: border-box;
 }
 table, th, td {
     border: 1px solid black;
