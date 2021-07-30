@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+#top, #lastbtn{
+    background-color: blanchedalmond;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+}
+#top{
+    top: 10px;
+}
+#lastbtn{
+    position: fixed;
+    bottom: 10px;
+}
+
+a:hover{
+    background-color: rgb(255, 216, 157);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 3px solid rgb(86, 86, 86);
+    border-radius: 10px;
+    padding: 5px;
+}
